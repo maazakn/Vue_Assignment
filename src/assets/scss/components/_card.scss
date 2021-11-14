@@ -1,0 +1,37 @@
+@import '../base/variables';
+
+.card {
+  min-width: 26rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  background-color: $primary;
+  color: $thirdColor;
+  padding: 0.6rem 1rem;
+  border-radius: $bradius;
+
+  h4 {
+    width: fit-content;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    font-size: 0.95rem;
+    span {
+      font-size: 0.94rem;
+    }
+    p {
+      font-size: 0.8rem;
+      margin-left: 0.2rem;
+    }
+  }
+
+  a {
+    width: fit-content;
+    color: $backgroundColor;
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 0.85rem;
+    &:hover {
+      color: rgb(145, 145, 250);
+    }
+  }
+}

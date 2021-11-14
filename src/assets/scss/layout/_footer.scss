@@ -1,0 +1,18 @@
+@import '../base/variables';
+
+.footerRoot {
+  width: 100%;
+  text-align: center;
+  background-color: $primary;
+  color: $thirdColor;
+  font-size: 0.9rem;
+  padding: 0.3rem;
+  letter-spacing: 1px;
+
+  &__link {
+    color: $thirdColor;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

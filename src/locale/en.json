@@ -1,0 +1,26 @@
+{
+  "NAV_ITEM_HOME": "Home",
+  "NAV_ITEM_NewCard": "New Card",
+
+  "FOOTER_TXT": "All rights reserved. Developed by",
+  "FOOTER_LINK_TXT": "Maaz Ahmed",
+
+  "NEWCARD_HEADING": "Loyalty Card",
+
+  "NEWCARD_FNAM_TXT": "First Name*",
+  "NEWCARD_LNAM_TXT": "Last Name*",
+
+  "NEWCARD_MEMBERSHIP_LAB": "Membership Tier*",
+  "NEWCARD_MEMBERSHIP_OPT1": "Silver",
+  "NEWCARD_MEMBERSHIP_OPT2": "Gold",
+  "NEWCARD_MEMBERSHIP_OPT3": "Platinum",
+
+  "NEWCARD_BUTT_TXT": "Create Card",
+
+  "Card_FNAM": "First Name:",
+  "Card_LNAM": "Lastt Name:",
+  "Card_MEMB": "Membership",
+  "Card_LINK_TXT": "More info",
+  "Card_DESCP": "Description",
+  "Card_DESCP_NF": "Not Found"
+}

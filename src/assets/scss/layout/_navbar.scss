@@ -1,0 +1,24 @@
+@import '../base/variables';
+
+.NavRoot {
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+  padding: 0.8rem;
+  background-color: $primary;
+  color: $thirdColor;
+  border-radius: $bradius;
+  & a {
+    color: $thirdColor;
+    border-bottom: 1.8px solid transparent;
+    font-weight: 500;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+  }
+  & a.router-link-exact-active {
+    transition: all 0.3s;
+    transform: scale(1.06);
+    border-color: $thirdColor;
+  }
+}

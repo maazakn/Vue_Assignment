@@ -1,0 +1,12 @@
+// base styles
+@import './base/global';
+
+// layout styles
+@import './layout/navbar';
+@import './layout/layout';
+@import './layout/footer';
+
+// components
+@import './components/home';
+@import './components/card';
+@import './components/createCard';
